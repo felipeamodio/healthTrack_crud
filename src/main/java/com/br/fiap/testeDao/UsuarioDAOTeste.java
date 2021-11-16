@@ -12,7 +12,7 @@ public class UsuarioDAOTeste {
 	UsuarioDAO dao = DAOFactory.getProdutoDAO();
 	
 	//cadastrar produto
-	Usuario usuario = new Usuario("teste", 1, "teste","teste","teste","teste",1,1);
+	Usuario usuario = new Usuario("teste", 1, "teste","teste","teste","teste", 1, 1);
 	try {
 		dao.cadastrar(usuario);
 		System.out.println("Usuário cadastrado");
